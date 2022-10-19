@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Pastry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets1/css/reboot.css" />
+    <link rel="stylesheet" href="assets1/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <form class="size-form">
+        <div class="container-pastry">
+          <h1>Select Pastry</h1>
+          <div class="pastry">
+            <input
+              type="radio"
+              id="thin"
+              name="pastry"
+              value="thin"
+              formaction="ingredients.html"
+            />
+            <label for="thin">Thin</label>
+          </div>
+          <div class="pastry">
+            <input
+              type="radio"
+              name="pastry"
+              id="thick"
+              value="thick"
+              formaction="select-ingredients.html"
+            />
+            <label for="thick">Thick</label>
+          </div>
+          <div class="button-back-pastry">
+            <button type="submit" role="button" formaction="select_size.html">
+              Back
+            </button>
+          </div>
+
+          <div class="button-back-pastry">
+            <button
+              type="submit"
+              role="button"
+              formaction="select_ingredients.html"
+            >
+              Select
+            </button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

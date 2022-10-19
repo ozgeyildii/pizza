@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Pastry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets1/css/reboot.css" />
+    <link rel="stylesheet" href="assets1/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <form class="ingredients-form">
+        <div class="container-ingredients">
+          <h1>Select Extra Ingridients</h1>
+          <div class="ingredients">
+            <input
+              type="checkbox"
+              id="mozarella"
+              name="ing"
+              value="mozarella"
+              formaction="select_ingredients.html"
+            />
+            <label for="mozarella">Mozarella</label>
+          </div>
+          <div class="ingredients">
+            <input
+              type="checkbox"
+              name="ing"
+              id="olive"
+              value="olive"
+              formaction="select_ingredients.html"
+            />
+            <label for="olive">Olive</label>
+          </div>
+          <div class="ingredients">
+            <input
+              type="checkbox"
+              id="mushroom"
+              name="ing"
+              value="mushroom"
+              formaction="select_ingredients.html"
+            />
+            <label for="mushroom">Mushroom</label>
+          </div>
+          <div class="ingredients">
+            <input
+              type="checkbox"
+              id="sweetCorn"
+              name="ing"
+              value="sweetCorn"
+              formaction="select_ingredients.html"
+            />
+            <label for="sweetCorn">Sweet Corn</label>
+          </div>
+
+          <div class="button-back-ing">
+            <button type="submit" role="button" formaction="select_size.html">
+              Back
+            </button>
+          </div>
+
+          <div class="button-forward-ing">
+            <button
+              type="submit"
+              role="button"
+              formaction="pizza_checkout.html"
+            >
+              Select
+            </button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

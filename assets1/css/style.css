@@ -1,0 +1,274 @@
+body {
+  background-image: url(../images/pizza_background.avif);
+}
+
+.header {
+  background-color: #4b4b4b;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  font-size: large;
+}
+
+.header img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.items img {
+  width: 182px;
+  height: 160px;
+}
+
+.pizza-order {
+  background-color: #4b4b4b;
+  margin: 60px auto 0;
+  width: 900px;
+}
+
+.pizza-order h1 {
+  color: rgb(227, 223, 223);
+  text-align: center;
+}
+
+.pizza-types {
+  display: block;
+  margin-left: 45px;
+}
+
+.items {
+  display: inline-block;
+  width: 200px;
+  margin: 30px 30px 30px 30px;
+  font-size: large;
+  font-family: "Comfortaa", cursive;
+  color: rgb(227, 223, 223);
+}
+
+.items label,
+.items button {
+  display: block;
+  margin-top: 15px;
+  width: 50%;
+  margin: 30px auto;
+}
+
+button[role="button"] {
+  cursor: pointer;
+  border: 3px solid #ff3838;
+  border-radius: 10px;
+}
+
+button[role="button"]:hover {
+  color: azure;
+  background-color: #ff3838;
+  border: #4b4b4b 1px solid;
+}
+
+button[role="button"]:focus {
+  color: azure;
+  background-color: #ff5e57;
+  border: none;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: #4b4b4b;
+  margin: 100px auto;
+}
+
+.container h1 {
+  color: beige;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.button-forward-pizza,
+.button-back-pizza {
+  display: inline;
+}
+
+.sizes label {
+  border: 2px solid #ff5e57;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 40px;
+  padding: 10px 15px;
+  width: 80%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.sizes input[type="radio"] {
+  display: none;
+}
+
+.sizes input[type="radio"]:checked + label {
+  background-color: #ff3838;
+}
+
+.button-back-pizza button[type="submit"] {
+  width: 20%;
+  border-radius: 5px;
+  margin: 20px 0 0 40px;
+}
+
+.button-forward-pizza button[type="submit"] {
+  width: 20%;
+  border-radius: 5px;
+  margin: 0 0 0 150px;
+}
+
+.container-pastry {
+  width: 400px;
+  height: 400px;
+  background-color: #4b4b4b;
+  margin: 100px auto;
+}
+
+.pastry label {
+  border: 2px solid #ff5e57;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 10px 15px;
+  width: 80%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.container-pastry h1 {
+  /*boşluk bırakamadım*/
+  color: beige;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.button-forward-pastry,
+.button-back-pastry {
+  display: inline;
+}
+
+.pastry input[type="radio"] {
+  display: none;
+}
+
+.pastry input[type="radio"]:checked + label {
+  background-color: #ff3838;
+}
+
+.button-back-pastry button[type="submit"] {
+  width: 20%;
+  border-radius: 5px;
+  margin: 30px 25px 0px 55px;
+}
+
+.button-forward-pastry button[type="submit"] {
+  width: 20%;
+  border-radius: 5px;
+  margin: 0 0 0 0;
+}
+
+.container-ingredients {
+  width: 600px;
+  height: 600px;
+  background-color: #4b4b4b;
+  margin: 100px auto;
+}
+
+.ingredients label {
+  border: 2px solid #ff5e57;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 10px 15px;
+  width: 80%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.container-ingredients h1 {
+  /*boşluk bırakamadım*/
+  color: beige;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.button-forward-ing,
+.button-back-ing {
+  display: inline;
+}
+
+.ingredients input[type="checkbox"] {
+  display: none;
+}
+
+.ingredients input[type="checkbox"]:checked + label {
+  background-color: #ff3838;
+}
+
+.button-back-ing button[type="submit"] {
+  width: 20%;
+  border-radius: 5px;
+  margin: 30px 5px 0px 95px;
+}
+
+.button-forward-ing button[type="submit"] {
+  width: 20%;
+  border-radius: 5px;
+  margin: 0 0 0 0;
+}
+
+.form-checkout {
+  background-color: #4b4b4b;
+  width: 800px;
+  height: 800px;
+  margin: 30px auto;
+}
+
+.form-checkout h1 {
+  text-align: center;
+  color: white;
+}
+
+.form-checkout label,
+.form-checkout input {
+  display: block;
+  text-align: center;
+  margin: 8px auto;
+}
+
+.form-checkout label {
+  color: beige;
+}
+
+.submit,
+.back-to-ing {
+  display: inline;
+}
+
+.submit button[type="submit"] {
+  width: 20%;
+  border-radius: 5px;
+  margin: 0 0 0 50px;
+}
+
+.back-to-ing button[type="submit"] {
+  width: 10%;
+  border-radius: 5px;
+  margin: 30px 240px 0 20px;
+}
+
+.success {
+  background-color: #4b4b4b;
+  color: antiquewhite;
+  font-family: "Comfortaa", cursive;
+  width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
